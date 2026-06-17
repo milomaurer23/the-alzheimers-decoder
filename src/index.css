@@ -1,0 +1,40 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+  background-color: #FAFAFA;
+  color: #0D0D0D;
+}
+
+::-webkit-scrollbar {
+  width: 3px;
+  height: 3px;
+}
+
+::-webkit-scrollbar-track {
+  background: #F5F5F3;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #D1D1CC;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #A3A39C;
+}
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+}
