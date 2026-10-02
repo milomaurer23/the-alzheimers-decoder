@@ -1,6 +1,6 @@
 export const parentProfile = {
   id: 'p001',
-  name: 'Eleanor Maurer',
+  name: 'Eleanor Hayes',
   age: 78,
   diagnosis_date: '2023-04-15',
   diagnosis: 'Early-Stage Alzheimer\'s Disease',
